@@ -2,7 +2,7 @@
 
 #include "version.h"
 
-int version()
+int MyVersion()
 {
     return PROJECT_VERSION_PATCH;
 }
