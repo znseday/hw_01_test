@@ -31,7 +31,7 @@ target_link_libraries(my_hw_01_main
 
 target_link_libraries(test_version
     ${Boost_LIBRARIES}
-    helloworld
+    my_lib
 )
 
 install(TARGETS my_hw_01_main RUNTIME DESTINATION bin)
