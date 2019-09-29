@@ -34,7 +34,7 @@ target_link_libraries(test_version
     my_lib
 )
 
-install(TARGETS my_hw_01_main RUNTIME DESTINATION bin)
+install(TARGETS my_hw_01 RUNTIME DESTINATION bin)
 
 set(CPACK_GENERATOR DEB)
 
