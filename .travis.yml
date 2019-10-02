@@ -16,4 +16,3 @@ deploy:
   skip_cleanup: true
   script:
   - curl -f -T helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -uznseday:$BINTRAY_API_KEY "https://api.bintray.com/content/znseday/otus-cpp/homework/$TRAVIS_BUILD_NUMBER/helloworld.deb;deb_distribution=xenial;deb_component=main;deb_architecture=amd64;publish=1"
-  - curl -L "https://dl.bintray.com/znseday/otus-cpp/homework/32/" -o helloworld.deb
