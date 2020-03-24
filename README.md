@@ -1,2 +1,3 @@
 # hw_01_test
-trying to do homework_01
+
+Homework_01 for OTUS
